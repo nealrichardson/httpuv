@@ -182,7 +182,9 @@ public:
   WebSocketConnection(std::shared_ptr<WebSocketConnectionCallbacks> callbacks)
       : _connState(WS_OPEN),
         _pCallbacks(callbacks),
-        _pParser(NULL) {
+        _pParser(NULL),
+        _deflator(),
+        _inflator() {
   }
   virtual ~WebSocketConnection() {
     ASSERT_BACKGROUND_THREAD()
