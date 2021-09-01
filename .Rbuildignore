@@ -2,9 +2,9 @@
 ^\.Rproj\.user$
 /\.mailmap$
 /\.git$
-/\.o$
-/\.so$
-/\.dll$
+\.o$
+\.so$
+\.dll$
 ^src/README.md$
 ^src/http-parser/.travis.yml$
 ^src/libuv/.github$
@@ -17,3 +17,4 @@
 ^\.github$
 ^cran-comments\.md$
 ^CRAN-RELEASE$
+^deflate-client$
